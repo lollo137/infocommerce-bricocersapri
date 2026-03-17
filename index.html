@@ -4,56 +4,217 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sito Infocommerce</title>
+  <title>Bricocersapri | Pavimenti, Rivestimenti e Arredo Bagno a Sapri</title>
+  <meta name="description" content="Bricocersapri: pavimenti, rivestimenti, arredo bagno, box doccia, rubinetteria e soluzioni per la casa a Sapri. Vieni a visitare la nostra sala mostra.">
+
   <link rel="stylesheet" href="main.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <img class="logo" src="LOGO.jpeg" alt="LOGO.jpeg">
+
+  <header class="site-header">
+    <div class="container topbar">
+      <a href="#" class="brand">
+        <img class="logo" src="LOGO.jpeg" alt="Logo Bricocersapri">
+      </a>
+
+      <nav class="nav">
+        <a href="#chi-siamo">Chi siamo</a>
+        <a href="#prodotti">Prodotti</a>
+        <a href="#marchi">Marchi</a>
+        <a href="#mostra">Sala mostra</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="azienda">
-      <h2>Chi Siamo</h2>
-      <p>Siamo il punto di riferimento per chi cerca mattonelle, pavimenti, rivestimenti e soluzioni complete per il bagno. Uniamo esperienza, qualità e attenzione al cliente per trasformare ogni ambiente in uno spazio unico. PRODOTTI : pavimenti, rivestimenti, stucchi, accessori bagno, rubinetteria, piatti doccia, boxdoccia</p>
-    </section>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Bricocersapri</p>
+          <h1>Pavimenti, rivestimenti e arredo bagno a Sapri</h1>
+          <p class="hero-description">
+            Qualità, esperienza e attenzione al cliente per aiutarti a scegliere
+            soluzioni adatte alla tua casa: pavimenti, rivestimenti, box doccia,
+            rubinetteria, accessori bagno e molto altro.
+          </p>
 
-    <section class="mappa">
-      <h2>Dove Siamo</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.983086177672!2d15.620023676074336!3d40.07578937631953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ed0421cb212c5%3A0x1cdd9513ea74ea80!2sVia%20John%20Kennedy%2C%2084073%20Sapri%20SA!5e0!3m2!1sit!2sit!4v1751021495725!5m2!1sit!2sit" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contatti">Contattaci</a>
+            <a class="btn btn-secondary" href="#mostra">Guarda la sala mostra</a>
+          </div>
 
-    <section class="marchi">
-      <h2>Aziende Trattate</h2>
-      <div class="carousel" id="aziende-carousel">
-        <img src="herberia.jpeg" alt="Marchio 1">
-        <img src="erre.jpeg" alt="Marchio 2">
-        <img src="cerasarda.jpeg" alt="Marchio 3">
-        <img src="gme.jpeg" alt="Marchio 3">
+          <div class="hero-info">
+            <div class="info-card">
+              <span class="info-title">Indirizzo</span>
+              <span>Via John Kennedy 105, Sapri</span>
+            </div>
+
+            <div class="info-card">
+              <span class="info-title">Telefono</span>
+              <span>0973 603169</span>
+            </div>
+
+            <div class="info-card">
+              <span class="info-title">Email</span>
+              <span>bricocersapri@libero.it</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-card">
+          <img src="A7202117.jpg" alt="Sala mostra Bricocersapri">
+        </div>
       </div>
     </section>
-    
-    <section class="mostra">
-      <h2>Sala Mostra</h2>
-      <div class="carousel" id="mostra-carousel">
-        <img src="A7202162.jpg" alt="Sala 1">
-        <img src="A7_08210.jpg" alt="Sala 2">
-        <img src="A7_08261.jpg" alt="Sala 3">
-        <img src="A7202024.jpg" alt="Sala 4">
-        <img src="A7202059.jpg" alt="Sala 5">
-        <img src="A7202117.jpg" alt="Sala 6">
-        <img src="A7202137.jpg" alt="Sala 7">
-        <img src="A7202168.jpg" alt="Sala 8">
-        
+
+    <section id="chi-siamo" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Chi siamo</p>
+          <h2>Una realtà dedicata alla casa e al bagno</h2>
+        </div>
+
+        <div class="content-card">
+          <p>
+            Bricocersapri è un punto di riferimento per chi cerca materiali e soluzioni
+            per ristrutturare o arredare gli ambienti con cura. Mettiamo a disposizione
+            esperienza, qualità dei prodotti e attenzione nella scelta di pavimenti,
+            rivestimenti e complementi per il bagno.
+          </p>
+          <p>
+            Il nostro obiettivo è accompagnare il cliente nella scelta dei materiali più
+            adatti, con una proposta che unisce estetica, funzionalità e durata.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="prodotti" class="section alt-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Cosa trattiamo</p>
+          <h2>I nostri principali prodotti</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Pavimenti</h3>
+            <p>Soluzioni per interni ed esterni con attenzione a stile, resistenza e praticità.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Rivestimenti</h3>
+            <p>Materiali e finiture per valorizzare ambienti moderni, classici e contemporanei.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Arredo bagno</h3>
+            <p>Proposte per arredare il bagno in modo funzionale ed elegante.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Rubinetteria</h3>
+            <p>Soluzioni affidabili e curate nel design per completare ogni ambiente bagno.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Piatti doccia e box doccia</h3>
+            <p>Prodotti pratici e di qualità per bagni moderni e ben organizzati.</p>
+          </article>
+
+          <article class="service-card">
+            <h3>Accessori bagno e stucchi</h3>
+            <p>Dettagli e materiali complementari per completare il progetto della tua casa.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="marchi" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Marchi</p>
+          <h2>Aziende trattate</h2>
+        </div>
+
+        <div class="carousel brands-carousel">
+          <img src="herberia.jpeg" alt="Herberia">
+          <img src="erre.jpeg" alt="Erre">
+          <img src="cerasarda.jpeg" alt="Cerasarda">
+          <img src="palazzani.jpg" alt="Palazzani">
+          <img src="flab.jpg" alt="Flab">
+          <img src="2MG.jpeg" alt="2MG">
+          <img src="delconca.jpeg" alt="Del Conca">
+          <img src="cir.jpg" alt="Cir">
+          <img src ="exagress.jpeg" alt="Exagress">
+          <img src ="althea.jpg" alt="Althea">
+           <img src ="vitruvit.jpg" alt="Vitruvit">
+        </div>
+      </div>
+    </section>
+
+    <section id="mostra" class="section alt-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Showroom</p>
+          <h2>La nostra sala mostra</h2>
+        </div>
+
+        <div class="carousel showroom-carousel">
+          <img src="salamostra9.jpg" alt="Sala mostra 9">
+          <img src="A7_08210.jpg" alt="Sala mostra 2">
+          <img src="A7_08261.jpg" alt="Sala mostra 3">
+          <img src="A7202024.jpg" alt="Sala mostra 4">
+          <img src="A7202059.jpg" alt="Sala mostra 5">
+          <img src="A7202117.jpg" alt="Sala mostra 6">
+          <img src="A7202137.jpg" alt="Sala mostra 7">
+          <img src="A7202168.jpg" alt="Sala mostra 8">
+          <img src="A7202162.jpg" alt="Sala mostra 1">
+        </div>
+      </div>
+    </section>
+
+    <section id="contatti" class="section">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <p class="section-label">Contatti</p>
+          <h2>Vieni a trovarci</h2>
+
+          <ul class="contact-list">
+            <li><strong>Indirizzo:</strong> Via John Kennedy 105, Sapri</li>
+            <li><strong>Telefono:</strong> 0973 603169</li>
+            <li><strong>Email:</strong> bricocersapri@libero.it</li>
+          </ul>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="tel:0973603169">Chiama ora</a>
+            <a class="btn btn-secondary" href="mailto:bricocersapri@libero.it">Scrivici</a>
+          </div>
+        </div>
+
+        <div class="map-card">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3052.983086177672!2d15.620023676074336!3d40.07578937631953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133ed0421cb212c5%3A0x1cdd9513ea74ea80!2sVia%20John%20Kennedy%2C%2084073%20Sapri%20SA!5e0!3m2!1sit!2sit!4v1751021495725!5m2!1sit!2sit"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mappa Bricocersapri">
+          </iframe>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    Contatti: Via John Kennedy 105 Sapri, 0973 603169, Bricocersapri@libero.it 
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p><strong>Bricocersapri</strong> · Pavimenti, rivestimenti e arredo bagno</p>
+      <p>Via John Kennedy 105, Sapri · Tel. 0973 603169 · Email: bricocersapri@libero.it</p>
+    </div>
   </footer>
 
 </body>
